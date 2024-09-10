@@ -1,0 +1,110 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    padding: 20px 0px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    max-width: 90%;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+h2{
+    margin: 0 10px;
+}
+h4, .card{
+    cursor: pointer;
+}
+#main{
+    height: 200px;
+    width: 100%;
+    padding: 0 40px;
+}
+#box{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 0 20px;
+}
+#page1{
+    height: auto;
+    width: 100%;
+    /* background-color: rgb(82, 100, 100); */
+    background-color: rgb(44, 44, 44);
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.card{
+    height: 330px;
+    width: 300px;
+    box-shadow: 0 0 3px whitesmoke;
+    border-radius: 5%;
+    background-color: black;
+}
+.card img{
+    height:250px;
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.card h3{
+    margin: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+#page2{
+    height: auto;
+    width: 100%;
+    background-color: rgb(41, 42, 63);
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+#page3{
+    height: auto;
+    width: 100%;
+    background-color: rgb(66, 37, 59);
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+    flex-wrap: wrap;
+    font-size: 280px;
+    color: black;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    padding: 3rem;
+    background-color: crimson;
+}
